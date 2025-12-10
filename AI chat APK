@@ -1,2 +1,5 @@
 unzip ai-chat-reactnative-eas.zip
 cd ai-chat-reactnative-eas
+npm install
+eas login
+eas build -p android --profile preview
